@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class test  {
+public class test {
 
     public static void main(String[] args) {
 
@@ -37,12 +37,36 @@ public class test  {
       for(int i = 0; i<size; i++) {
         System.out.println("Daten von " + (i+1) + ".ten Array Block: " + one.pop2());
     }
+    // Nur Zum testen der eigenen Exception
+// test();
 
  }
-        catch (Exception e)
+        catch (/*myExc e*/ Exception e)
          {
-            System.out.println("Exception Here :)");
+            System.out.println(e.getMessage());
         }
  
 }
+
+
+
+    // public static void test () throws myExc
+    // {
+    //     int divisor = 0;
+ 
+    //     if(divisor != 0)
+    //     {
+    //         System.out.println("AHA");
+    //     }
+    //     else
+    //     {
+    //         /* Hier wird unsere Exception geworfen */
+    //         throw new myExc();
+ 
+    //         /* Anweisungen nach einer throw Anweisung in einem Block werden nicht mehr ausgeführt */
+    //     }
+    //  //   return ergebnis;
+    // }
+
+
 }
