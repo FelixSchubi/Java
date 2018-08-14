@@ -4,13 +4,12 @@ public class arrClass /*implements intFace*/ {
 
     
 
-    // public arrClass(int x) {
+     public arrClass(int x) {
         
-    //     System.out.println("arrClass_> Konstruktor:    "  + x );
+         System.out.println("arrClass_> Konstruktor:    "  + x );
 
-    //     faceFunction();
-
-    // }
+         faceFunction();
+     }
 
 
  public void faceFunction(){
